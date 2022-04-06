@@ -34,6 +34,7 @@ function init(){
 
 function query(){
 	createLeftE6();
+	alert("查询完成")
 }
 
 function getData(key){
@@ -55,6 +56,7 @@ function submit(){
 		};
 	para = JSON.stringify(para);
 	save(key, para);
+	alert("提交成功");
 }
 
 function createLeftE6(){

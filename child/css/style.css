@@ -1,12 +1,14 @@
 /* CSS Document */
 body{
 	background-color: #F9F;
-	width: 1920px;
-	height: 1080px;
+	width: 800px;
+	height: 1136px;
 }
 .tw_style{
 	height:600px;
 	width:auto;
+	position:relative;
+	left:100px;
 }
 .jl_style{
 	height:300px;
@@ -16,15 +18,15 @@ body{
 	height:50px;
 	width:250px;
 	position:relative;
-	left:850px;
+	left:400px;
 }
 .from2{
 	height:100px;
 	width:250px;
 	position:relative;
-	left:850px;
+	left:400px;
 }
 #submit{
 	position:relative;
-	left:850px;
+	left:400px;
 }
