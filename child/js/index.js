@@ -83,7 +83,7 @@ function createLeftE6(){
 		var key = year_cx+'-'+month_cx+'-'+d_cx
 		var para = JSON.parse(getData(key));
 		if(para == null || para == '' || para == 'null'){
-			data_1.push(0);
+			data_1.push(30);
 		    label_2.push('')
 		}else{
 			var tw_cx = para['tw'];
@@ -98,7 +98,7 @@ function createLeftE6(){
 			}
 			
 			if(tw_cx == '' || tw_cx == null){
-				tw_cx = 0;
+				tw_cx = 30;
 			}
 			data_1.push(tw_cx);
 		}
@@ -176,6 +176,9 @@ function createLeftE6(){
 		],
 		yAxis: [
 			{
+				interval:0.5,
+				min:30,
+				max:40,
 				boundaryGap: true,
 				type: 'value',
 				axisLabel: {
