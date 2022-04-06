@@ -1,0 +1,30 @@
+/* CSS Document */
+body{
+	background-color: #F9F;
+	width: 1920px;
+	height: 1080px;
+}
+.tw_style{
+	height:600px;
+	width:auto;
+}
+.jl_style{
+	height:300px;
+	width:auto;
+}
+.from1{
+	height:50px;
+	width:250px;
+	position:relative;
+	left:850px;
+}
+.from2{
+	height:100px;
+	width:250px;
+	position:relative;
+	left:850px;
+}
+#submit{
+	position:relative;
+	left:850px;
+}

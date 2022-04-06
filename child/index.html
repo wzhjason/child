@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="css/style.css" rel="stylesheet" type="text/css">
+    	<script src="js/echarts.min.js"></script>
+    	<script src="js/index.js"></script>	
+        <script src="js/jquery-3.5.1.min.js"></script>	
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+    	<div id="tw" class="tw_style">
+        
+    	</div>
+        
+    <div id="jl" class="jl_style">
+            <form class="from1">
+            	<a>查询：</a>
+               <input type="month" id="rq" class="rq_style" pattern="yyyy-mm"/>
+               <input type="button" id="cx" value="查询" onClick="query()"/>
+            </form>
+            <form class="from2">
+           	    <a>当前时间：</a>
+               <input type="date" id="now" readonly/>
+               <br>
+               <a>体温：</a>
+               <input type="text" id="wd" required>
+                <br>
+               <a>选项：</a>
+               <select id="chose">
+               	<option value="1">none</option>
+                <option value="2">menstuation</option>
+                <option value="3">bed</option>
+               </select>
+            </form>
+             <input type="button" id="submit" value="提交" onClick="submit()" >
+
+        </div>
+	</body>
+    <script>
+		window.onload=function(){
+			init();
+		}
+	</script>
+</html>
