@@ -16,9 +16,14 @@ function getDate(){
 	
 	if(month<10){
 		month_s="0"+month;
+	}else{
+		month_s=month;
 	}
+
 	if(day<10){
 		day_s="0"+day;
+	}else{
+		day_s= day;
 	}
 	
 	nyr = year+'-'+month_s+'-'+day_s;
